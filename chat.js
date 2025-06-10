@@ -7,7 +7,7 @@ import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
 
 // Initialize with environment variables
-const GOOGLE_API_KEY = process.env.GOOGLE_API_KEY;
+const GOOGLE_API_KEY = "AIzaSyDfIsq6Oij-Nkr5qtwE_-GD5ulDUm4UvO8";
 
 // Initialize chat system
 let chain;
