@@ -38,7 +38,7 @@ async function initializeChat() {
 
     // Step 2: Embed and Store in VectorStore
     const embeddings = new GoogleGenerativeAIEmbeddings({
-        modelName: "models/embedding-001",
+        modelName: "models/embedding-003",
         apiKey: GOOGLE_API_KEY,
     });
 
@@ -47,7 +47,7 @@ async function initializeChat() {
 
     // Step 3: Define LLM
     const llm = new ChatGoogleGenerativeAI({
-        modelName: "gemini-1.5-flash-8b",
+        modelName: "gemini-2.5-flash-lite",
         apiKey: GOOGLE_API_KEY,
     });
 
