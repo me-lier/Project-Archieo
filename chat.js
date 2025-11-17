@@ -38,7 +38,7 @@ async function initializeChat() {
 
     // Step 2: Embed and Store in VectorStore
     const embeddings = new GoogleGenerativeAIEmbeddings({
-        modelName: "models/embedding-004",
+        modelName: "models/text-embedding-004",
         apiKey: GOOGLE_API_KEY,
     });
 
